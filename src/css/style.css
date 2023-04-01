@@ -1,0 +1,50 @@
+@import url('https://fonts.cdnfonts.com/css/common-pixel');
+
+body{
+    background-color: lightgray;
+}
+
+.twop{
+    display: flex; 
+    justify-content: space-between;
+    font-family: 'Common Pixel', sans-serif;
+}
+
+.left{
+    margin-left: 30%;
+}
+
+.right{
+    margin-right: 30%;
+}
+
+.nocol{
+    position: absolute;
+    z-index: -1;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    left: 22%;
+    top: 10px;
+    
+    /*
+    right: ;
+    top: ;
+    bottom: ;
+    */
+}
+
+.pokeimg{
+    object-position: bottom;
+    position: absolute;
+}
+
+.pname{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    right: 30px;
+    top: 5px;
+    position: relative;
+}
